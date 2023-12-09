@@ -1,0 +1,39 @@
+body, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.category h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.bookmark {
+    display: block;
+    background: white;
+    color: #555;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.bookmark:hover {
+    background-color: #e0e0e0;
+}
